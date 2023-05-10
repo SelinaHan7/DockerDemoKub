@@ -14,7 +14,7 @@ spec:
         app: webapp
     spec:
       containers:
-      - name: demobookk8s
-        image: richapanjabi/demobook2:v1
+      - name: dockerdemokubapp
+        image: selinahan/dockerdemokub:v1
         ports:
         - containerPort: 80
